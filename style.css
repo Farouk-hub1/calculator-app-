@@ -42,7 +42,7 @@ body{
   overflow: hidden;
 }
 
-previous-operation{
+#previous-operation{
   width: 100%;
   text-align: right;
   font-size: 15px;
@@ -61,4 +61,33 @@ previous-operation{
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 8px;
+}
 
+button{
+  height: 65px;
+  border: none;
+  border-radius: 30px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #f8fafc;
+  background: #503a0b;
+  cursor: pointer;
+  transition: 
+  transform 0.12s ease,
+  background 0.12s ease,
+  box-shadow 0.12s ease;
+}
+
+button:hover {
+  background: #e28c09;
+  transform: translate(-2px);
+}
+
+
+button:active {
+  transform: scale(0.94);
+}

@@ -91,3 +91,15 @@ button:hover {
 button:active {
   transform: scale(0.94);
 }
+
+.operator{
+  background: #b40a0a;
+  color: #fecadb;
+
+}
+
+.operator:hover{
+  background: #50e6a0;
+}
+
+

@@ -42,4 +42,23 @@ body{
   overflow: hidden;
 }
 
-previous-operation
+previous-operation{
+  width: 100%;
+  text-align: right;
+  font-size: 15px;
+  color: #f3cc1e;
+  min-height:  24px;
+  margin-bottom: 8px;
+}
+
+#current-operation{
+  width: 100%;
+  text-align: right ;
+  font-size: 18px;
+  font-weight: 600;
+  color: #082fdd;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+

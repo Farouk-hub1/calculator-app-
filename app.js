@@ -10,4 +10,15 @@ let currentNumber ="";
 let previousNumber ="";
 let operator = "";
 
-currentoperation.textContent = "123";
+
+
+//listen for button clicks
+
+buttons.forEach(function(button){
+  button.addEventListener("click", function(){
+    const value = button.textContent;
+    currentNumber += value
+    currentoperation.textContent = currentNumber;
+  });
+});
+

@@ -102,4 +102,34 @@ button:active {
   background: #50e6a0;
 }
 
+.clear {
+  background: #7f1d;
+  color: #fecafd;
+}
+
+.clear:hover{
+  background: #99bb;
+}
+
+.delete{
+  background-color: blue;
+  color: #cc941d;
+}
+
+.delete:hover{
+   background: #99bb;
+}
+
+.equals{
+  background: #16a34a;
+  color: white;
+}
+
+.equals:hover{
+  background: #22c55e;
+}
+
+.zero{
+  grid-column: span 2;
+}
 
